@@ -8,6 +8,7 @@ h1 {margin-left: 1rem}
     font-size: 2rem;
     top: 1rem;
     right: 1rem;
+    cursor: pointer;
 }
 /* change default displays for List Items (li) */
 .main-nav ul {
