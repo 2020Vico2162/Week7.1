@@ -20,7 +20,7 @@ h1 {margin-left: 1rem}
 }
 .main-nav ul.active {
     display:block;
-}
+} /* used for JavaScript to display menu */
 .main-nav a {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
@@ -70,19 +70,10 @@ footer {
     }
     /* change how the menu displays */
     .main-nav ul, .main-nav ul.active {
-        margin: 0;
-        padding: 0;
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-end;
         /*flex-start => left justified*/
-        list-style: none;
-        align-items: flex-end;
-    }
-    .main-nav a {
-      display: flex;
-      align-items: flex-end;
-      color: #333;
     }
     
     .flex div {
